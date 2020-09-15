@@ -1,0 +1,198 @@
+                    body {
+                        background-image: url(images/bg-tablet-pattern.svg);
+                        background-position-x: 700px;
+                        background-position-y: -300px;
+                        background-repeat: initial;
+                    }
+                    
+                    @media (max-width:768px) {
+                        body {
+                            background-image: url(images/bg-simplify-section-mobile.svg);
+                        }
+                        .sec4-1 {
+                            background-color: #fad2c8;
+                        }
+                        .sec3 h2,
+                        .sec3 p,
+                        .sec1,
+                        .sec6,
+                        .sec5 {
+                            text-align: center;
+                        }
+                    }
+                    
+                    @media (min-width:769px) {
+                        body {
+                            background-image: url(images/bg-tablet-pattern.svg);
+                        }
+                        .nav-items {
+                            cursor: pointer;
+                        }
+                        .nav-items:hover {
+                            columns: #f7f7f7;
+                        }
+                    }
+                    
+                    .btn2 {
+                        border: 1px solid #f3603c;
+                        background-color: #f3603c;
+                        border-radius: 30px;
+                        color: #fff;
+                        padding: 5px 10px 5px 10px;
+                    }
+                    
+                    .btn {
+                        border: 1px solid #f3603c;
+                        background-color: #f3603c;
+                        border-radius: 30px;
+                        color: #fff;
+                        padding: 15px 20px 15px 20px;
+                    }
+                    
+                    .btn:hover {
+                        background-color: #f9b09e;
+                        color: #fff;
+                    }
+                    
+                    .centeralign {
+                        display: flex;
+                        margin-left: auto;
+                        justify-content: space-between;
+                        padding-left: 5px;
+                    }
+                    
+                    footer {
+                        background-color: rgb(3, 3, 49);
+                        color: #fff;
+                    }
+                    
+                    .searchbar {
+                        padding-top: 20px;
+                    }
+                    
+                    .sec1 {
+                        margin-right: auto;
+                        padding-top: 75px;
+                        padding-bottom: 50px;
+                    }
+                    
+                    .sec1 h1 {
+                        font-weight: 700;
+                        font-size: 50px;
+                    }
+                    
+                    .sec2 {
+                        margin-left: auto;
+                        padding-top: 75px;
+                        padding-bottom: 50px;
+                    }
+                    
+                    .sec3 {
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                    }
+                    
+                    .sec3 h2 {
+                        margin-right: auto;
+                        font-weight: 700;
+                        font-size: 44px;
+                    }
+                    
+                    .sec4 {
+                        margin-left: auto;
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                        display: inline-block;
+                    }
+                    
+                    .sec4 h3 {
+                        margin-right: auto;
+                        font-weight: 700;
+                        font-size: 17px;
+                    }
+                    
+                    .btn-disable {
+                        border: 1px solid #f3603c;
+                        background-color: #f3603c;
+                        border-radius: 30px;
+                        color: #fff;
+                        padding: 5px 20px 5px 20px;
+                    }
+                    
+                    .imgsrc {
+                        margin-top: -50px;
+                    }
+                    
+                    .sec5 {
+                        padding-top: 75px;
+                        padding-bottom: 75px;
+                    }
+                    
+                    .foot:hover {
+                        color: #f3603c;
+                        transition: 0.6s;
+                    }
+                    
+                    .btn-floating {
+                        font-size: 25px;
+                    }
+                    
+                    .btn-floating:hover {
+                        color: #f3603c;
+                        transition: 0.6s;
+                        transform: scaleZ(1.2);
+                        cursor: pointer;
+                    }
+                    
+                    .sec6 {
+                        padding-top: 75px;
+                        padding-bottom: 75px;
+                        background-color: #f3603c;
+                        background-image: url(images/bg-simplify-section-desktop.svg);
+                    }
+                    
+                    .sec6 h2 {
+                        margin: auto;
+                        font-weight: 700;
+                        color: white;
+                        font-size: 44px;
+                    }
+                    
+                    .sec6 .btn1 {
+                        float: right;
+                        margin: auto;
+                        border: 1px solid #f3603c;
+                        background-color: white;
+                        border-radius: 20px;
+                        color: #f3603c;
+                        padding: 15px 20px 15px 20px;
+                        border-radius: 30px;
+                    }
+                    
+                    .btn2:hover {
+                        transition: 0.4s;
+                        color: whitesmoke;
+                        background-color: #ffffff;
+                    }
+                    
+                    .searchbar {
+                        display: inline-block;
+                        justify-content: space-between;
+                    }
+                    
+                    .testimonials {
+                        display: flex;
+                    }
+                    
+                    a {
+                        color: white;
+                    }
+                    
+                    .secicon {
+                        padding-top: 85px;
+                    }
+                    
+                    .card {
+                        padding: 5px 10px 5px 10px;
+                        background-color: #f7f7f7;
+                    }
